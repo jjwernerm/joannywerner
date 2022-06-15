@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+p { 
+  margin: 0 !important;
+}
+
+/* *** header *** */
+header {
+  height: 768px;
+  position: relative;
+  background-size: cover;
+  background: url("../imgs/bg-header.png") no-repeat;
+}
+
+.headerFlex {
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 10em;
+}
+
+h1, h3 {
+  color: #ffffff;
+}
+
+/* *** navbar *** */
+.navHover:hover {
+  background-color: #ffffff;
+  border-radius: 0.5em;
+}
+
+h1, .acronym {
+  font-family: 'Sacramento', cursive;
+}
+
+/* *** aboutMe *** */
+.bgAboutMe {
+  color: #ffffff;
+  background-color: #002233;
+}
+
+.imgAboutMe {
+  width: 30em;
+  height: 20em;
+}
+
+.div-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* *** experience *** */
+#experience, #studies {
+  color: #ffffff;
+  border-radius: 1em;
+  background-color: #002233;
+}
+
+/* *** skills *** */
+.bgSkills {
+  color: #002233;
+  border-radius: 1em;
+}
+
+.sizeIcon {
+  font-size: 5em;
+  color: #ffffff;
+}
+
+.fa-circle-check {
+  font-size: 14px;
+}
+
+.fa-check-double, .fa-check {
+  color: chartreuse;
+}
